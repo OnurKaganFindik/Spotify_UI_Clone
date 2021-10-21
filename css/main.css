@@ -85,7 +85,12 @@ main{
     padding:20px;
     position:fixed;
     top:50px;
-    right:20px;
+    right:-280px;
+    transition: right 0.5s;
+}
+
+.nav-hamburger.on{
+    right: 20px;
 }
 
 .nav-hamburger a{

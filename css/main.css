@@ -59,12 +59,26 @@ main{
 
 #page-footer{
     border:2px solid blue;
+    background-color: var(--dark-color);
+    padding: 60px 10px;
 }
 
-
+/*--- Banners ---*/
+.banner{
+    background-color: rgb(37, 37, 175);
+    height: calc(100vh-80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    font-size: 50px;
+    color: var(--light-color);
+    font-weight: 800;
+}
 /*  --- Buttons ---- */
 .btn-hamburger{
-    background-color:red;
+    background-color:var(--dark-color);
     border:none;
     position:fixed;
     top:20px;
@@ -101,5 +115,18 @@ main{
 .nav-hamburger a:hover{
     color:var(--primary-color);
 }
+.nav-footer{
+    margin-top: 60px;
+}
 
+.nav-footer h3{
+    color: var(--gray-1);
+    margin-bottom: 20px;
+}
+.nav-footer li{
+    margin-bottom: 20px;
+}
+.nav-footer a{
+    color: var(--light-color);
+}
 
